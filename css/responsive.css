@@ -22,6 +22,14 @@
     max-width: 480px;
   }
 
+  /* SITE-HEADER */
+
+  .site-header {
+    width: 480px;
+    margin: 3rem auto 0;
+    padding: 0 20px;
+  }
+
   /* LESSONS */
 
   .row {
