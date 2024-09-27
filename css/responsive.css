@@ -45,4 +45,31 @@
     width: 100%;
     margin-bottom: 4rem;
   }
+
+  /* STEPS */
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .steps .col {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+
+  .text {
+    padding: 0px 3rem;
+  }
+
+  .why-us {
+    margin: 0;
+    background-color: #222222;
+  }
+
+  .why-us .row {
+    flex-direction: column;
+  }
+  .why-us col {
+    width: 100%;
+  }
 }
