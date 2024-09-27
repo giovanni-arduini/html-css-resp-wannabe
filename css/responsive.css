@@ -21,4 +21,15 @@
   .container {
     max-width: 480px;
   }
+
+  /* LESSONS */
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .lessons .col {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
 }
