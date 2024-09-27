@@ -48,6 +48,10 @@
 
   /* STEPS */
 
+  .steps {
+    margin: 0;
+  }
+
   .row {
     flex-wrap: wrap;
   }
@@ -63,13 +67,23 @@
 
   .why-us {
     margin: 0;
+  }
+
+  .why-us .container {
+    margin: 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     background-color: #222222;
   }
 
   .why-us .row {
     flex-direction: column;
+    row-gap: 4rem;
   }
-  .why-us col {
+
+  .why-us .col-left,
+  .why-us .col-right {
     width: 100%;
+    padding: 0 2rem;
   }
 }
