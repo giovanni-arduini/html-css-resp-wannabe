@@ -2,19 +2,20 @@
 
 /* DESKTOP */
 
-/* @media (max-width: 1150px) {
-  .site-header {   
+@media (max-width: 1140px) {
+  .container {
+    max-width: 100%;
   }
-} */
+}
 
 /* TABLET */
 
 @media (max-width: 768px) {
   .container {
-    max-width: 768px;
+    max-width: 100%;
   }
   .site-header {
-    width: 768px;
+    width: 100%;
     margin: 3rem auto 0;
     padding: 0 20px;
   }
@@ -24,18 +25,18 @@
 
 @media (max-width: 480px) {
   .container {
-    max-width: 480px;
+    max-width: 100%px;
   }
 
-  /* SITE-HEADER */
+  /* Site-header */
 
   .site-header {
-    width: 480px;
+    width: 100%;
     margin: 3rem auto 0;
     padding: 0 20px;
   }
 
-  /* LESSONS */
+  /* Lessons */
 
   .row {
     flex-wrap: wrap;
@@ -46,7 +47,7 @@
     margin-bottom: 4rem;
   }
 
-  /* STEPS */
+  /* Steps */
 
   .steps {
     margin: 0;
@@ -64,6 +65,8 @@
   .text {
     padding: 0px 3rem;
   }
+
+  /* Why us */
 
   .why-us {
     margin: 0;
