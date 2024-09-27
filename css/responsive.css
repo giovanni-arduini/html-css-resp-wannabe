@@ -1,9 +1,24 @@
 /* RESPONSIVENESS RULES */
 
+/* DESKTOP */
+
+/* @media (max-width: 1150px) {
+  .site-header {   
+  }
+} */
+
 /* TABLET */
 
 @media (max-width: 768px) {
   .container {
     max-width: 768px;
+  }
+}
+
+/* SMARTPHONE */
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 480px;
   }
 }
